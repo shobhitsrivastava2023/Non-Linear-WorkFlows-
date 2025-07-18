@@ -1,7 +1,4 @@
 
-<p align="center">
-  An Open-Source AI Chatbot Template Built With Next.js, Anthropic Claude, and Composio Integration.
-</p>
 
 <p align="center">
   <a href="#features"><strong>Features</strong></a> ·
