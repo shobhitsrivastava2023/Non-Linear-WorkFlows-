@@ -51,10 +51,9 @@ import { cn } from '@/lib/utils';
 const TOOLKIT_AUTH_CONFIG: Record<string, string> = {
   GMAIL: process.env.NEXT_PUBLIC_COMPOSIO_AUTH_GMAIL || '',
   GOOGLECALENDAR: process.env.NEXT_PUBLIC_COMPOSIO_AUTH_GOOGLECALENDAR || '',
-  GITHUB: process.env.NEXT_PUBLIC_COMPOSIO_AUTH_GITHUB || '',
+  ZOHO_INVOICE : process.env.NEXT_PUBLIC_COMPOSIO_AUTH_ZOHO_INVOICE || '',
   NOTION: process.env.NEXT_PUBLIC_COMPOSIO_AUTH_NOTION || '',
   SLACK: process.env.NEXT_PUBLIC_COMPOSIO_AUTH_SLACK || '',
-  LINEAR: process.env.NEXT_PUBLIC_COMPOSIO_AUTH_LINEAR || '',
 };
 
 const TOOLBAR_COOKIE_NAME = 'toolbar:state';

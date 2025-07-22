@@ -35,6 +35,7 @@ export async function POST(request: Request) {
     const connectionRequest = (await composio.connectedAccounts.initiate(
       session.user.id,
       authConfigId,
+     
       // {
       //   callbackUrl: `${process.env.NEXT_PUBLIC_APP_URL}/api/connections/callback`,
       // },

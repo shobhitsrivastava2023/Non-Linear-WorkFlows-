@@ -28,10 +28,11 @@ type ConnectedAccount = {
 const SUPPORTED_TOOLKITS = [
   'GMAIL',
   'GOOGLECALENDAR',
-  'GITHUB',
+  'ZOHO_INVOICE',
   'NOTION',
   'SLACK',
-  'LINEAR',
+  'COMPOSIO',
+  'COMPOSIO_SEARCH'
 ];
 
 export async function GET() {
